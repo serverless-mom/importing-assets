@@ -13,7 +13,7 @@ var iftttMakerUrl =
 
 exports.handler = async message => {
     var messageString = `Error in node ${message.stackery.node.name} - ${message.class} - ${message.message} - stack trace: ${message.stack}`
-    console.log('From Stackery:', messageString);
+    console.log('From Stackery;', messageString);
 
 
     // The output is send as 'value1' to IFTTT Maker
